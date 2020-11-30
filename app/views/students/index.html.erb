@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<div class="student_table">
+
+<%= render partial: "search/search_form"  %>
+ 
+<h1>Students</h1>
+<%= render partial: "student_listing"  %>
+
+<%= link_to 'New Student', new_student_path,  class: "btn btn-primary"  %>
+
+
+</div>
+
+
+
