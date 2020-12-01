@@ -13,7 +13,7 @@ class StudentsController < ApplicationController
     #@students = Students.active_students_with_long_name
     #@time_ago = helpers.time_ago_in_words(Time.now)
 
-    HelloWorldJob.set(wait: 25.seconds).perform_later
+    # HelloWorldJob.set(wait: 25.seconds).perform_later
   end
 
   # GET /students/1
